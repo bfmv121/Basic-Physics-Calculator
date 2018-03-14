@@ -185,25 +185,6 @@ class Classic_Physics_Calculator(object):
 
 
 
-class Thermal_Physics_Calculator(object):
-
-    def change_in_enthalpy(self):
-
-        change_of_energy_input = int(input(str.lower("what is the change of energy?")))
-        change_of_energy = change_of_energy_input
-        pressure_input = int(input("what is the pressure?"))
-        pressure = pressure_input
-        change_of_volume_input= int(input("what is the change in volume"))
-        change_of_volume= change_of_volume_input
-
-        enthalpy = change_of_energy + change_of_volume * pressure
-
-        print("the change in enthalpy is" + " " + str(enthalpy))
-
-
-
-
-
 
 def main():
     physics = Classic_Physics_Calculator()
